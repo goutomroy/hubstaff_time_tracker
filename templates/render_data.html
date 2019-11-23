@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+}
+th {
+  text-align: left;
+}
+
+
+
+    </style>
+</head>
+<body>
+
+<h2>Organization: {{organization_name}} Date: {{requested_date}}</h2>
+
+<table style="width:50%">
+
+    <tr>
+        {% for header in rows_header %}
+        <th>{{header}}</th>
+        {% endfor %}
+    </tr>
+    {% for row_items in rows_data %}
+    <tr>
+        {% for item in row_items %}
+        {% if loop.index == 1 %}
+        <td><b>{{item}}</b></td>
+        {% else %}
+        <td>{{item}}</td>
+        {% endif %}
+        {% endfor %}
+    </tr>
+    {% endfor %}
+</table>
+
+</body>
+</html>

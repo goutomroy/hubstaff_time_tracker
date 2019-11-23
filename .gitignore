@@ -1,0 +1,12 @@
+venv/
+*.pyc
+*.zip
+/.idea/
+/local/
+/ve/
+.swp
+*.ipynb
+*.log
+/static
+/media
+just_run_here.py
