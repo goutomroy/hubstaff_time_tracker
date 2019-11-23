@@ -1,6 +1,6 @@
 ### Description  
 [Hubstaff](https://hubstaff.com/) is a smart time tracking software for company to track employee's working hour.
-It has a great api too, I am using [Api V1]([api](https://app.hubstaff.com/developer/docs/api/v1)). The ability to retrieve your data from Hubstaff will allow you to create your own custom 
+It has a great api too, I am using [Api V1](https://app.hubstaff.com/developer/docs/api/v1). The ability to retrieve your data from Hubstaff will allow you to create your own custom 
 solutions for displaying the data. For example, if you wanted to white-label the Hubstaff platform you could build a 
 portal for your clients to log in and view activities, tasks, notes, and more.  
 
